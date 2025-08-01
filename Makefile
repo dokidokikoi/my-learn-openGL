@@ -8,7 +8,9 @@ CXXFLAGS := -std=c++11 -Wall -g
 # SRC_DIR = src/1.getting_started/2.3.triangle_exercise1
 # SRC_DIR = src/1.getting_started/2.4.triangle_exercise2
 # SRC_DIR = src/1.getting_started/2.5.triangle_exercise3
-SRC_DIR = src/1.getting_started/3.1.shader_uniform
+# SRC_DIR = src/1.getting_started/3.1.shader_uniform
+# SRC_DIR = src/1.getting_started/3.2.shader_interpolation
+SRC_DIR = src/1.getting_started/3.3.shader_class
 OBJ_DIR = $(SRC_DIR)/build
 BIN = main
 
