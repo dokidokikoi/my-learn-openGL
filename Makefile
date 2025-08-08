@@ -10,7 +10,24 @@ CXXFLAGS := -std=c++11 -Wall -g
 # SRC_DIR = src/1.getting_started/2.5.triangle_exercise3
 # SRC_DIR = src/1.getting_started/3.1.shader_uniform
 # SRC_DIR = src/1.getting_started/3.2.shader_interpolation
-SRC_DIR = src/1.getting_started/3.3.shader_class
+# SRC_DIR = src/1.getting_started/3.3.shader_class
+# SRC_DIR = src/1.getting_started/3.5.shader_exercise2
+# SRC_DIR = src/1.getting_started/3.6.shader_exercise3
+# SRC_DIR = src/1.getting_started/4.1.texture
+# SRC_DIR = src/1.getting_started/4.2.texture_combined
+# SRC_DIR = src/1.getting_started/4.4.texture_exercise2
+# SRC_DIR = src/1.getting_started/4.5.texture_exercise3
+# SRC_DIR = src/1.getting_started/4.6.texture_exercise4
+# SRC_DIR = src/1.getting_started/5.1.transformations
+# SRC_DIR = src/1.getting_started/5.2.transformations_exercise2
+# SRC_DIR = src/1.getting_started/6.1.coordinate_systems
+# SRC_DIR = src/1.getting_started/6.2.coordinate_systems_depth
+# SRC_DIR = src/1.getting_started/6.3.coordinate_systems_multiple
+# SRC_DIR = src/1.getting_started/7.1.camera_circle
+# SRC_DIR = src/1.getting_started/7.2.camera_keyboard_dt
+# SRC_DIR = src/1.getting_started/7.3.camera_mouse_zoom
+# SRC_DIR = src/1.getting_started/7.4.camera_class
+SRC_DIR = src/2.lighting/1.color
 OBJ_DIR = $(SRC_DIR)/build
 BIN = main
 
