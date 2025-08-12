@@ -90,6 +90,10 @@ public:
     {
         glUniform3f(glGetUniformLocation(ID, name.c_str()), value1, value2, value3);
     }
+    void setVec3(const std::string &name, glm::vec3 vec) const
+    {
+        glUniform3f(glGetUniformLocation(ID, name.c_str()), vec.x, vec.y, vec.z);
+    }
 private:
     void checkCompileErrors(unsigned int shader, std::string type)
     {

@@ -27,7 +27,10 @@ CXXFLAGS := -std=c++11 -Wall -g
 # SRC_DIR = src/1.getting_started/7.2.camera_keyboard_dt
 # SRC_DIR = src/1.getting_started/7.3.camera_mouse_zoom
 # SRC_DIR = src/1.getting_started/7.4.camera_class
-SRC_DIR = src/2.lighting/1.color
+# SRC_DIR = src/2.lighting/1.color
+# SRC_DIR = src/2.lighting/2.1.basic_lighting_diffuse
+# SRC_DIR = src/2.lighting/2.2.basic_lighting_specular
+SRC_DIR = src/2.lighting/2.3.basic_lighting_exercise1
 OBJ_DIR = $(SRC_DIR)/build
 BIN = main
 
