@@ -30,7 +30,12 @@ CXXFLAGS := -std=c++11 -Wall -g
 # SRC_DIR = src/2.lighting/1.color
 # SRC_DIR = src/2.lighting/2.1.basic_lighting_diffuse
 # SRC_DIR = src/2.lighting/2.2.basic_lighting_specular
-SRC_DIR = src/2.lighting/2.3.basic_lighting_exercise1
+# SRC_DIR = src/2.lighting/2.3.basic_lighting_exercise1
+# SRC_DIR = src/2.lighting/3.1.materials
+# SRC_DIR = src/2.lighting/4.1.lighting_maps_diffuse_map
+# SRC_DIR = src/2.lighting/4.2.lighting_maps_specular_map
+# SRC_DIR = src/2.lighting/4.3.lighting_maps_exercise2
+SRC_DIR = src/2.lighting/4.4.lighting_maps_exercise4
 OBJ_DIR = $(SRC_DIR)/build
 BIN = main
 
